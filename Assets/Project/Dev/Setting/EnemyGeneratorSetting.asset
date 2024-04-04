@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c9f95276b5c477cabc19cab9a30c469, type: 3}
+  m_Name: EnemyGeneratorSetting
+  m_EditorClassIdentifier: 
+  _enemyConfigs:
+  - <Enemy>k__BackingField: {fileID: 5391978377488497787, guid: cd331e136ef12314fb1368937cedb557, type: 3}
+    <DropResourceConfigs>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 4727266778105492288, guid: e171ca183cdbb62468e3c867fbb0b3e6, type: 3}
+      <Count>k__BackingField: 1
+    - <Resource>k__BackingField: {fileID: 4727266778105492288, guid: c9748200ea6884a4a9c5558d1fe75b94, type: 3}
+      <Count>k__BackingField: 2
+    <Count>k__BackingField: 1
+  - <Enemy>k__BackingField: {fileID: 5391978377488497787, guid: cd331e136ef12314fb1368937cedb557, type: 3}
+    <DropResourceConfigs>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 4727266778105492288, guid: c9748200ea6884a4a9c5558d1fe75b94, type: 3}
+      <Count>k__BackingField: 3
+    <Count>k__BackingField: 1
+  - <Enemy>k__BackingField: {fileID: 5391978377488497787, guid: cd331e136ef12314fb1368937cedb557, type: 3}
+    <DropResourceConfigs>k__BackingField:
+    - <Resource>k__BackingField: {fileID: 4727266778105492288, guid: 689964f169ae7cd429a7d1fb5622b146, type: 3}
+      <Count>k__BackingField: 1
+    <Count>k__BackingField: 1
